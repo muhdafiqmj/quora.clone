@@ -1,3 +1,4 @@
-get '/' do
-  erb :"static/index"
+get '/sessions/new' do
+  erb :"users/login"
 end
+
